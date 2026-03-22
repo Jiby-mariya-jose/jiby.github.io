@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YT-SarcasmVis Dataset</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #333;
+    }
+    h1 { color: #1a237e; }
+    h2 { color: #283593; border-bottom: 2px solid #e8eaf6; padding-bottom: 8px; }
+    .badge {
+      display: inline-block;
+      background: #1a237e;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin: 4px;
+      font-size: 14px;
+    }
+    .button {
+      display: inline-block;
+      background: #1a237e;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 8px 4px;
+      font-weight: bold;
+    }
+    .button:hover { background: #283593; }
+    .card {
+      background: #f5f5f5;
+      border-left: 4px solid #1a237e;
+      padding: 16px 20px;
+      margin: 16px 0;
+      border-radius: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th {
+      background: #1a237e;
+      color: white;
+      padding: 10px;
+      text-align: left;
+    }
+    td { padding: 10px; border-bottom: 1px solid #ddd; }
+    tr:hover { background: #f5f5f5; }
+  </style>
+</head>
+<body>
+
+  <h1>YT-SarcasmVis</h1>
+  <p>A Large-Scale YouTube Multimodal Dataset for Visual Sarcasm Detection</p>
+
+  <span class="badge">18,432 Clips</span>
+  <span class="badge">94.7 Hours</span>
+  <span class="badge">6 Categories</span>
+  <span class="badge">7 Annotation Layers</span>
+  <span class="badge">TPAMI 2025</span>
+
+  <br><br>
+
+  <a href="#" class="button">📄 Paper (PDF)</a>
+  <a href="#" class="button">💾 Download Dataset</a>
+  <a href="#" class="button">💻 GitHub Code</a>
+  <a href="#" class="button">📊 Leaderboard</a>
+
+  <h2>Abstract</h2>
+  <div class="card">
+    <p>
+      We introduce YT-SarcasmVis, the first large-scale YouTube multimodal 
+      dataset for visual sarcasm detection, comprising 18,432 annotated video 
+      clips across six thematic categories. Each clip is annotated with seven 
+      independent layers including binary sarcasm label, irony subtype, 
+      intensity, VAD sentiment, visual focus regions, temporal spans, and 
+      modality attribution. We further propose TCASN, achieving 73.4% F1.
+    </p>
+  </div>
+
+  <h2>Dataset Statistics</h2>
+  <table>
+    <tr><th>Statistic</th><th>Value</th></tr>
+    <tr><td>Total Clips</td><td>18,432</td></tr>
+    <tr><td>Total Duration</td><td>94.7 hours</td></tr>
+    <tr><td>Sarcastic Clips</td><td>9,847 (53.4%)</td></tr>
+    <tr><td>Non-Sarcastic Clips</td><td>8,585 (46.6%)</td></tr>
+    <tr><td>Unique Channels</td><td>2,847</td></tr>
+    <tr><td>Annotation Layers</td><td>7</td></tr>
+    <tr><td>Annotators</td><td>47</td></tr>
+    <tr><td>Inter-Annotator Agreement</td><td>κ = 0.81</td></tr>
+  </table>
+
+  <h2>Citation</h2>
+  <div class="card">
+    <pre>
+@article{mehta2025ytsarcasmvis,
+  title   = {YT-SarcasmVis: A Large-Scale YouTube Multimodal 
+             Dataset for Visual Sarcasm Detection},
+  author  = {Mehta, Aryan and Nair, Priya and Rao, Siddharth 
+             and Al-Mansouri, Fatima and Kowalski, David},
+  journal = {IEEE Transactions on Pattern Analysis and 
+             Machine Intelligence},
+  year    = {2025}
+}
+    </pre>
+  </div>
+
+  <h2>Contact</h2>
+  <p>For questions about the dataset, contact: your@email.com</p>
+
+  <hr>
+  <p style="color:#999; font-size:13px;">
+    © 2025 Your Institution. Dataset released under CC BY 4.0.
+  </p>
+
+</body>
+</html>
